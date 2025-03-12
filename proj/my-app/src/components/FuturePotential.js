@@ -1,12 +1,12 @@
 // src/components/FuturePotential.js
 import React from 'react';
 import './FuturePotential.css';
-import visionImage from './assets/vision.png'; // Ensure the correct path to your image
+import visionImage from './assets/vision.jpg'; // Ensure the correct path to your image
 
 function FuturePotential() {
   return (
-    <div className="future-potential-container">
-      <h1 className="main-heading">Our Vision</h1>
+    <div className="future-potential-container" id='vision'>
+      <h1 className="main-headingfutu">Our Vision</h1>
       <div className="vision-section">
         {/* Left Side Image */}
         <div className="vision-image-container">

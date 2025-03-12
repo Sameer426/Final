@@ -10,7 +10,6 @@ main {
   margin-top: 100px; /* Offset for fixed header */
 }
 
-
 section {
   margin: 40px 0;
   padding: 20px;
@@ -29,4 +28,20 @@ html {
 /* Offset for fixed header */
 section {
   scroll-margin-top: 100px; /* Adjust based on header height */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+  flex: 1; /* Pushes footer down */
 }

@@ -7,6 +7,7 @@ import Impacts from './components/Impacts';
 import Application from './components/Application';
 import TeamMembers from './components/TeamMembers';
 import FuturePotential from './components/FuturePotential';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
         </div>
         <div id="team">
           <TeamMembers />
+        </div>
+        <div>
+          <Footer/>
         </div>
       </main>
     </div>

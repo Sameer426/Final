@@ -1,101 +1,81 @@
-/* src/components/Features.css */
+/* Features.css */
 .features-container {
-  font-family: 'Open Sans', sans-serif;
-  padding: 40px;
-  background-color: #ffffff;
-  padding-top: 0px;
-}
-
-/* Main Heading */
-.main-heading {
-  font-size: 2.5em;
-  font-weight: bold;
   text-align: center;
-  margin-bottom: 30px;
-  color: #79c73d;
+  padding: 5vw 2vw;
+  background-color: white;
+  margin-top: 0rem;
 }
 
-/* Features Section */
+.main-headingfre {
+  font-size: 3rem;
+  margin-bottom: 5vh;
+  color: #76b72a;
+}
+
 .features-section {
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 15px;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  overflow-x: auto; /* Allows horizontal scrolling if needed */
-  padding-bottom: 10px;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: nowrap; /* Ensure all items stay in the same line */
 }
 
-/* Feature Item */
 .feature-item {
-  flex: 1 1 18%; /* Ensures five blocks fit in one row */
-  max-width: 220px;
-  height: 200px;
-  text-align: center;
-  background-color: #f5f0e1;
-  border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  padding: 15px;
+  background: #f5f2e6;
+  border-radius: 1vw;
+  box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 15vw; /* Relative width for uniform size */
+  height: 36vh; /* Increased height for better visibility */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  overflow: hidden;
+  justify-content: space-between;
+  padding: 1vw;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Feature Image */
+.feature-item:hover {
+  transform: translateY(-0.5vw);
+}
+
 .feature-image {
-  width: 211px; /* Fixed width */
-  height: 160px; /* Fixed height */
-  object-fit: cover; /* Ensures images fill the area uniformly */
-  border-radius: 8px;
-  margin-top: -14px;
+  width: 100%;
+  height: 20vh; /* Increased height for images to align properly */
+  object-fit: cover;
+  border-radius: 1vw;
 }
 
-/* Feature Text */
 .feature-item p {
-  font-size: 1em;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 20px;
-}
-.check{
-  margin-bottom: -3px;
+  color: #555;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .features-section {
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
     justify-content: center;
   }
 
   .feature-item {
-    flex: 1 1 calc(30% - 15px);
-    max-width: 220px;
-    height: 260px;
-  }
-
-  .feature-image {
-    width: 160px;
-    height: 140px;
+    width: 18vw; /* Adjust width for medium screens */
+    height: 35vh; /* Increased height for medium screens */
   }
 }
 
 @media (max-width: 768px) {
+  .features-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .feature-item {
-    flex: 1 1 calc(45% - 15px);
-    max-width: 220px;
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto;
   }
 
   .feature-image {
-    width: 150px;
-    height: 130px;
+    height: 22vh; /* Increased height for smaller screens */
   }
-}
-
-
-/* Feature Image Hover Effect */
-.feature-image:hover {
-  transform: scale(1.1); /* Slightly enlarges the image */
-  transition: transform 0.3s ease-in-out; /* Smooth transition */
 }

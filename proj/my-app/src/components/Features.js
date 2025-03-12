@@ -10,7 +10,7 @@ import feature5 from './assets/feature4.jpg';
 function Features() {
   return (
     <div className="features-container">
-      <h1 className="main-heading">Why Choose J-WIN?</h1>
+      <h1 className="main-headingfre">Why Choose J-WIN?</h1>
       <div className="features-section">
         <div className="feature-item">
           <img src={feature1} alt="Circular Economy" className="feature-image" />

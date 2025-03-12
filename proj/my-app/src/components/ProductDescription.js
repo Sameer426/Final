@@ -6,8 +6,8 @@ import bannerImage from './assets/img2.jpg'; // Ensure the correct path to your 
 function ProductDescription() {
   return (
     <div className="product-description-container">
-      <h1 className="main-heading">Transforming the Future with Sustainable Innovation</h1>
-      <h2 className="subheading">Introduction to J-WIN</h2>
+      <h1 className="main-headinggg">Transforming the Future with Sustainable Innovation</h1>
+      <h2 className="subheadinggg">Introduction to J-WIN</h2>
       <div className="description-section">
         <div className="image-container">
           <img src={bannerImage} alt="Sustainable Feedstocks" className="description-image" />

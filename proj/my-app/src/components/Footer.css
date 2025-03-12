@@ -1,0 +1,62 @@
+/* Footer Container */
+.footer {
+    width: 100%;
+    background: #c7dbb0; /* Matching header color */
+    padding: 1.5rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Spreads elements */
+    box-shadow: 0 -0.25rem 0.6rem rgba(0, 0, 0, 0.1);
+    margin-bottom: -10rem; /* Remove negative margin */
+    border-radius: 50px 50px 0 0;
+}
+
+/* Footer Navigation */
+.footer-nav {
+    background: #b0c7a1; /* Darker section */
+    padding: 0.6rem 1.2rem; /* Adjust padding */
+    border-radius: 50px; /* Rounded edges */
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Adjust spacing */
+    background: #b0c7a1;
+    padding: 0.4rem 1rem; /* Adjust padding */
+    border-radius: 50px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem 0.8rem;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.footer-links a:hover {
+    color: #0073ff;
+    background: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+    border-radius: 5px;
+}
+
+/* Footer Logo */
+.footer-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo img {
+    height: 50px; /* Adjusted for better proportion */
+    width: auto;
+}

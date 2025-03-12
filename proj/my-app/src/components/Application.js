@@ -11,8 +11,8 @@ import appi6 from './assets/appi6.jpg';
 function Applications() {
   return (
     <div className="applications-container">
-      <h1 className="main-heading">Versatile Applications Across Industries</h1>
-      <p className="subheading">
+      <h1 className="main-headingapp">Versatile Applications Across Industries</h1>
+      <p className="subheadingapp">
         From coffee capsules to hygiene products, J-WIN is engineered to meet diverse industry needs while ensuring sustainability at every step.
       </p>
       <div className="applications-section">
